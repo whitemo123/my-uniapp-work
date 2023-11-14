@@ -17,6 +17,7 @@
             android:hardwareAccelerated="true"
             android:theme="@style/TranslucentTheme"
             android:screenOrientation="user"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +32,7 @@
             android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
             android:screenOrientation="user"
             android:theme="@style/DCloudTheme"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -41,7 +43,7 @@
         </activity>
         <meta-data
             android:name="dcloud_appkey"
-            android:value="开发者需登录https://dev.dcloud.net.cn/申请签名" />
+            android:value="69642a63454b1bc729089d7dcd977173" />
     </application>
 
 </manifest>
