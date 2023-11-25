@@ -36,8 +36,15 @@
     "launchwebview": {
       "render": "always",
       "id": "1",
-      "kernel": "WKWebview"
+      "kernel": "WKWebview",
+      "uniNView": {
+        "path": "pages/index/index.js"
+      }
     },
+    "orientation": [
+      "landscape-primary",
+      "landscape-secondary"
+    ],
     "usingComponents": true,
     "nvueStyleCompiler": "uni-app",
     "compilerVersion": 3,
@@ -59,7 +66,8 @@
           "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
           "<uses-feature android:name=\"android.hardware.camera\"/>",
           "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
-        ]
+        ],
+        "pageOrientation": "landscape"
       },
       "apple": {},
       "plugins": {
@@ -93,6 +101,5 @@
         "minUserAgentVersion": "49.0"
       }
     }
-  },
-  "launch_path": "__uniappview.html"
+  }
 }
